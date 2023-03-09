@@ -51,7 +51,7 @@ body {
     font-size: 36px;
     color: hsl(0, 0%, 100%);
     margin-top: 20px;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .text p {
@@ -67,7 +67,7 @@ span {
 }
 
 .stat ul {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
     list-style: none;
     display: flex;
     width: 30px;
