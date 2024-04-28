@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* ### Primary */
+    --Very-Dark-Blue-main-background: hsl(233, 47%, 7%);
+    --Dark-Desaturated-Blue-card-background: hsl(244, 38%, 16%);
+    --SoftViolet-accent: hsl(277, 64%, 61%);
+
+    /* ### Neutral */
+    --White-main-heading-stats: hsl(0, 0%, 100%);
+    --Slightly-Transparent-White-main-paragraph: hsla(0, 0%, 100%, 0.75);
+    --Slightly-Transparent-White-stat-Headings: hsla(0, 0%, 100%, 0.6);
+    --Font-Inter: 'Inter', sans-serif;
+    --Font-Lexend-Deca: 'Lexend Deca', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: .95rem;
+    margin: 0em 1.5rem;
+    background-color: var(--Very-Dark-Blue-main-background);
+}
+
+.insights__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1110px;
+    height: 448px;
+    border-radius: .7rem;
+    overflow: hidden;
+}
+
+.insights__txt {
+    width: 100%;
+    height: 100%;
+    max-width: 569px;
+    padding: 4.44rem;
+    background-color: var(--Dark-Desaturated-Blue-card-background);
+}
+
+.insights__txt__title {
+    color: var(--White-main-heading-stats);
+    font-family: var(--Font-Lexend-Deca);
+    font-size: 2.4rem;
+}
+
+.insights {
+    color: var(--SoftViolet-accent);
+}
+
+.insights__txt__paragraph {
+    color: var(--Slightly-Transparent-White-main-paragraph);
+    font-family: var(--Font-Lexend-Deca);
+    margin: 2rem 0em 4.1rem 0em;
+    line-height: 1.4em;
+    max-width: 410px;
+}
+
+.insights__txt__stats {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3.9rem;
+}
+
+.its__companies,
+.its__templates,
+.its__queries {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--Font-Inter);
+    color: var(--Slightly-Transparent-White-main-paragraph);
+    font-size: .8rem;
+    letter-spacing: .1rem;
+}
+
+.its__companies__bold,
+.its__templates__bold,
+.its__queries__bold {
+    color: var(--White-main-heading-stats);
+    font-size: 1.57rem;
+    font-family: var(--Font-Lexend-Deca);
+}
+
+.insights__desk__picture {
+    background-color: var(--SoftViolet-accent);
+    height: 100%;
+    display: block;
+}
+
+.desk__picture {
+    mix-blend-mode: multiply;
+    opacity: 0.8;
+    height: 100%;
+    display: block;
+}
+
+.footer {
+    position: absolute;
+    margin-top: 70em;
+    padding: .5rem;
+    font-size: .82rem;
+    text-align: center;
+    color: var(--White-main-heading-stats);
+    font-family: var(--Font-Lexend-Deca);
+}
+
+.footer  a {
+    color: var(--SoftViolet-accent);
+    font-weight: 600;
+}
